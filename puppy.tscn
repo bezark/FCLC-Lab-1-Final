@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjrto74tgnoi"]
+
+[ext_resource type="Texture2D" uid="uid://d17bpi8gbpqcs" path="res://Pasted image.png" id="1_xel80"]
+[ext_resource type="Texture2D" uid="uid://bihphhm308o6n" path="res://icon.svg" id="2_geouk"]
+
+[node name="Puppy" type="Node2D"]
+
+[node name="PastedImage" type="Sprite2D" parent="."]
+position = Vector2(613, 276)
+scale = Vector2(0.141266, 0.141266)
+texture = ExtResource("1_xel80")
+
+[node name="Robot" type="Sprite2D" parent="."]
+position = Vector2(204, 293)
+texture = ExtResource("2_geouk")
